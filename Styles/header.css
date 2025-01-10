@@ -3,6 +3,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background-color: white;
+  border-bottom: 1px;
+  border-bottom-color:rgb(224, 224, 224) ;
+  border-bottom-style: solid;
+  z-index: 100;
 }
 
 .left-section {
@@ -31,7 +41,7 @@
 
 .search-bar{
   flex: 1;
-  height: 36px;
+  height: 36.5px;
   padding-left: 10px;
   font-size: 16px;
   border-width: 1px;
@@ -49,7 +59,7 @@
 
 .search-button{
   height: 40px;
-  width: 66px;
+  width: 62px;
   border-width: 1px;
   border-color:rgb(192, 192, 192); 
   border-style: solid;
@@ -98,6 +108,25 @@
   height: 24px;
 }
 
+.notifications-icon-container{
+  position: relative;
+}
+
+.notifications-count{
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  border-radius: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  top: -2px;
+  right: -5px;
+
+}
 .mychannel-picture{
   height: 40px;
   border-radius: 20px;
