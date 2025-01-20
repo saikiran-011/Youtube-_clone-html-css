@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.video-thumbnail-link{
+  cursor: pointer;
+}
+
 .video-title {
   margin-top: 0;
   font-size: 14px;
@@ -41,6 +45,11 @@
   margin-bottom: 4px;
 }
 
+.channel-link{
+  color: rgb(96, 96, 96);
+  text-decoration: none;
+}
+
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -48,7 +57,13 @@
   row-gap: 40px;
 }
 
-@media(max-width: 750px){
+@media (max-width: 500px) {
+  .video-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(min-width:501px) and (max-width: 750px){
   .video-grid{
     grid-template-columns: 1fr 1fr;
   }
