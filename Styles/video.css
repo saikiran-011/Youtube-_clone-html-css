@@ -50,6 +50,10 @@
   text-decoration: none;
 }
 
+.channel-picture-links{
+  cursor: pointer;
+}
+
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
